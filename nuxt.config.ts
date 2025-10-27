@@ -3,8 +3,5 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   modules: [],
-  ssr: true,
-  nitro: {
-      preset: 'firebase_app_hosting'
-  }
+  ssr: true
 })
